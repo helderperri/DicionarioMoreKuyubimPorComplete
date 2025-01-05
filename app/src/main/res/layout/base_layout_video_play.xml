@@ -1,0 +1,48 @@
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <RelativeLayout
+        style="@style/Background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <VideoView
+            android:id="@+id/vvVideoPlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:adjustViewBounds="true"
+            tools:srcCompat="@tools:sample/avatars"
+            android:maxWidth="400dp"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+
+    <ImageButton
+        android:id="@+id/imageButtonClose"
+        style="@style/BtnAlpha"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="0dp"
+        android:onClick="backToEntry"
+        android:padding="0dp"
+        android:contentDescription="@string/back_to_entry_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_close" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

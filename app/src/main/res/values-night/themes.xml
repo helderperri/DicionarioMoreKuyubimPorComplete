@@ -1,0 +1,81 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DicionarioMoreKuyubim" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/japiim_light</item>
+        <item name="colorPrimaryVariant">@color/japiim_dark</item>
+        <item name="colorOnPrimary">@color/dark_gray</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/japiim_dark</item>
+        <!-- Customize your theme here. -->
+
+    </style>
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@mipmap/ic_japiim</item>
+<!--        <item name="backgroundColor">@color/design_default_color_secondary</item>-->
+
+    </style>
+    <style name="Light">
+        <item name="textColor">#000000</item>
+        <item name="metaColor">#606060</item>
+        <item name="color">#ffffff</item>
+    </style>
+
+    <style name="Dark">
+        <item name="textColor">#ffffff</item>
+        <item name="metaColor">#aeaeae</item>
+        <item name="color">#000000</item>
+    </style>
+    <style name="Background">
+        <item name="android:background">@color/dark_gray</item>
+    </style>
+
+    <style name="TextColor">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextColorSl1">
+        <item name="android:textColor">@color/source_01_dark</item>
+    </style>
+    <style name="BtnAlpha">
+        <item name="tabTextColor">@color/japiim_light</item>
+        <item name="android:background">@color/dark_gray</item>
+        <item name="tabIndicatorColor">@color/japiim_light</item>
+        <item name="tint">@color/japiim_light</item>
+        <item name="backgroundTint">@color/dark_gray</item>
+    </style>
+
+    <style name="BtnInfo">
+        <item name="tabTextColor">@color/japiim_light</item>
+        <item name="android:background">@color/dark_gray</item>
+        <item name="tabIndicatorColor">@color/japiim_light</item>
+        <item name="tint">@color/source_01_dark</item>
+        <item name="backgroundTint">@color/dark_gray</item>
+    </style>
+
+    <style name="TextColorSl1Secondary">
+        <item name="android:textColor">@color/source_01_secondary_dark</item>
+    </style>
+
+    <style name="TextColorSl2">
+        <item name="android:textColor">@color/source_02_dark</item>
+    </style>
+    <style name="TextColorSl2Secondary">
+        <item name="android:textColor">@color/source_02_secondary_dark</item>
+    </style>
+
+    <style name="TextColorTl">
+        <item name="android:textColor">@color/light_gray</item>
+    </style>
+    <style name="TextColorClass">
+        <item name="android:textColor">@color/light_gray</item>
+    </style>
+
+    <style name="TextColorTlDark">
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

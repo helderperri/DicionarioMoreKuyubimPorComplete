@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "japiim.dic.morekuyubim.por",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 26,
+      "versionName": "Versão 2.26 do Dicionário Moré-Kuyubim",
+      "outputFile": "app-release.apk"
+    }
+  ],
+  "elementType": "File"
+}

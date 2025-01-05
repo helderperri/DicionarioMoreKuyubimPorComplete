@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Background"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    android:orientation="horizontal"
+    android:layout_weight="@integer/material_motion_duration_short_1">
+
+
+    <TextView
+        style="@style/TextColorTlDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvGlossScrollDisplaySl"
+        android:layout_marginLeft="5dp"
+        android:textStyle="italic"
+        android:textSize="18sp"
+        android:text="Gloss" />
+
+
+
+</LinearLayout>

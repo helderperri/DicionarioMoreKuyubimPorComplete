@@ -1,0 +1,34 @@
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvImagesExpanded"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+
+    <ImageButton
+        style="@style/BtnAlpha"
+        android:id="@+id/imageButtonClose"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="0dp"
+        android:onClick="backToEntry"
+        android:contentDescription="@string/back_to_entry_btn"
+        android:padding="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_close" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

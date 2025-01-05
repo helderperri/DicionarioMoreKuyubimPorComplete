@@ -1,0 +1,88 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DicionarioMoreKuyubim" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/japiim_dark</item>
+        <item name="colorPrimaryVariant">@color/japiim_light</item>
+        <item name="colorOnPrimary">@color/transparent</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/japiim_light</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.japiim.dic.morekuyubim.por.SplashScsreen" parent="Theme.SplashScreen">
+        <!-- Set the splash screen background, animated icon, and animation
+        duration. -->
+<!--        <item name="windowSplashScreenBackground">@color/...</item>-->
+
+        <!-- Use windowSplashScreenAnimatedIcon to add a drawable or an animated
+             drawable. One of these is required. -->
+<!--        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_combinado</item>-->
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_japiim</item>
+        <!-- Required for animated icons. -->
+        <item name="windowSplashScreenAnimationDuration">200</item>
+
+        <!-- Set the theme of the Activity that directly follows your splash
+        screen. This is required. -->
+<!--        <item name="postSplashScreenTheme">@style/Theme.App</item>-->
+    </style>
+    <style name="SplashTheme" parent="Theme.japiim.dic.morekuyubim.por.SplashScsreen">
+        <item name="android:roundIcon">@mipmap/ic_japiim</item>
+<!--        <item name="windowSplashScreenAnimatedIcon">@drawable/japiim_logo</item>-->
+<!--        <item name="android:windowBackground">@drawable/logo_combinado</item>-->
+
+<!--    <item name="android:drawable">@drawable/logo_combinado</item>-->
+<!--        <item name="android:windowBackground">@color/japiim_light</item>-->
+    </style>
+
+    <style name="Background">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="TextColor">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="TextColorSl1">
+        <item name="android:textColor">@color/source_01</item>
+    </style>
+    <style name="BtnAlpha">
+        <item name="tabTextColor">@color/japiim_dark</item>
+        <item name="android:background">@color/white</item>
+        <item name="tabIndicatorColor">@color/japiim_dark</item>
+        <item name="tint">@color/japiim_dark</item>
+        <item name="backgroundTint">@color/white</item>
+    </style>
+    <style name="BtnInfo">
+        <item name="tabTextColor">@color/japiim_dark</item>
+        <item name="android:background">@color/white</item>
+        <item name="tabIndicatorColor">@color/japiim_dark</item>
+        <item name="tint">@color/source_01_secondary_dark</item>
+        <item name="backgroundTint">@color/white</item>
+    </style>
+    <style name="TextColorSl1Secondary">
+        <item name="android:textColor">@color/source_01_secondary</item>
+    </style>
+
+    <style name="TextColorSl2">
+        <item name="android:textColor">@color/source_02</item>
+    </style>
+    <style name="TextColorSl2Secondary">
+        <item name="android:textColor">@color/source_02_secondary</item>
+    </style>
+
+
+    <style name="TextColorTl">
+        <item name="android:textColor">@color/gray</item>
+    </style>
+    <style name="TextColorClass">
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+    <style name="TextColorTlDark">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>

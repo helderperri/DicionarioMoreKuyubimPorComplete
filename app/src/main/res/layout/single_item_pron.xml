@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="0dp"
+    android:layout_margin="0dp">
+<!--
+    <TextView
+        android:id="@+id/tvPronId"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:text="Pronunciation Id" />
+
+    <TextView
+        android:id="@+id/tvPron"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:text="Pronunciation" />
+
+    <ImageButton
+        android:id="@+id/pronBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        app:srcCompat="@drawable/ic_play"
+        android:padding="0dp"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="@android:color/white"
+        />
+
+        <Button
+        android:id="@+id/pronBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_play"
+        android:padding="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="0"
+        />
+
+-->
+    <ImageView
+        style="@style/BtnAlpha"
+        android:id="@+id/pronBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_play"
+        android:soundEffectsEnabled = "false"
+        android:padding="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_weight="@integer/material_motion_duration_short_1"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="2dp"
+    >
+<LinearLayout
+    style="@style/Background"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="start"
+    android:layout_weight="@integer/material_motion_duration_short_1">
+        <TextView
+            style="@style/TextColorTlDark"
+            android:id="@+id/tvClassScrollDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:textSize="16sp"
+            android:text="@string/class_name"
+            android:textStyle="italic"/>
+
+        <TextView
+            style="@style/TextColorTlDark"
+            android:id="@+id/tvDefScrollDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3sp"
+            android:layout_margin="0sp"
+            android:textSize="18sp"
+            android:text="Definition" />
+
+</LinearLayout>
+
+
+</LinearLayout>

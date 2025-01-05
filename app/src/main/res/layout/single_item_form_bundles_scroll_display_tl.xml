@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Background"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="start"
+    android:layout_weight="@integer/material_motion_duration_short_1">
+
+        <TextView
+            style="@style/TextColorSl1"
+            android:id="@+id/tvVernacularScrollDisplayTl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textStyle="italic"
+            android:text="Vernacular" />
+
+        <TextView
+            style="@style/TextColorSl1"
+            android:id="@+id/tvLangCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:text="LangCode" />
+
+
+
+</LinearLayout>

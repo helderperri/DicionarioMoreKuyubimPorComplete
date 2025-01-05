@@ -1,0 +1,62 @@
+<resources>
+
+
+    <string name="app_name">Dicionário Moré-Kuyubim</string>
+    <string name="app_name_esp">Diccionario Moré-Kuyubim</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_source_lang">Moré-Kuyubim</string>
+    <string name="title_target_lang">Português</string>
+    <string name="title_target_lang_esp">Español</string>
+    <string name="title_alphabetic">Alfabética</string>
+    <string name="title_alphabetic_source">Alfa - Moré-Kuyubim</string>
+    <string name="title_alphabetic_target">Alfa - Port</string>
+    <string name="title_alphabetic_source_esp">Alfa - Moré-Kuyubim</string>
+    <string name="title_alphabetic_target_esp">Alfa - Esp</string>
+    <string name="title_alphabetic2_source">Alfa2 - Moré-Kuyubim</string>
+    <string name="title_alphabetic2_target">Alfa2 - Port</string>
+    <string name="title_semantic_source">Sem - Moré-Kuyubim</string>
+    <string name="title_semantic_target">Sem - Port</string>
+    <string name="title_semantic_target_esp">Sem - Esp</string>
+    <string name="out_path_web">https://japiim.linguasyanomami.com/dic/morekuyubim/</string>
+    <string name="audio_path">/Japiim/morekuyubim/audio/</string>
+    <string name="audio_path2">Japiim/morekuyubim/audio/</string>
+    <string name="audio_path_web_mp3">https://japiim.linguasyanomami.com/dic/morekuyubim/assets/android/Japiim/morekuyubim/audio/</string>
+    <string name="audio_path_web_wav">https://japiim.linguasyanomami.com/dic/morekuyubim/assets/audio/</string>
+    <string name="audio_path_web">https://japiim.linguasyanomami.com/dic/morekuyubim/assets/audio/</string>
+    <string name="image_path">/Japiim/morekuyubim/image/</string>
+    <string name="image_path2">Japiim/morekuyubim/image/</string>
+    <string name="image_path_web">https://japiim.linguasyanomami.com/dic/morekuyubim/assets/android/Japiim/morekuyubim/image/</string>
+    <string name="image_path_web_orig">https://japiim.linguasyanomami.com/dic/morekuyubim/assets/image/</string>
+    <string name="image_path_web_min">https://japiim.linguasyanomami.com/dic/morekuyubim/assets/android/Japiim/morekuyubim/image/</string>
+    <string name="image_thumb_path">/Japiim/morekuyubim/image/thumb/</string>
+    <string name="image_thumb_path2">Japiim/morekuyubim/image/thumb/</string>
+    <string name="image_thumb_path_web">https://japiim.linguasyanomami.com/dic/morekuyubim/assets/android/Japiim/morekuyubim/image/thumb/</string>
+    <string name="video_path">/Japiim/morekuyubim/video/</string>
+    <string name="video_path_web">https://japiim.linguasyanomami.com/dic/morekuyubim/assets/android/Japiim/morekuyubim/video/</string>
+    <string name="video_thumb_path">/Japiim/morekuyubim/video/thumb/</string>
+    <string name="video_thumb_path_web">https://japiim.linguasyanomami.com/dic/morekuyubim/assets/android/Japiim/morekuyubim/video/thumb/</string>
+    <string name="video_path2">Japiim/morekuyubim/video/</string>
+    <string name="video_thumb_path2">Japiim/morekuyubim/video/thumb/</string>
+    <string name="video_thumb_path_web2">https://japiim.linguasyanomami.com/dic/morekuyubim/assets/video/thumb/</string>
+
+    <string name="description_zoom_touch_close">clique para aumentar</string>
+    <string name="back_to_entry_btn">Voltar à entrada</string>
+
+
+    <string name="description_tab">Aba de seleção de categorias</string>
+    <string name="description_viewpager">Lista de entradas</string>
+
+
+    <string name="version_name">Versão 2.26 do Dicionário Moré-Kuyubim</string>
+    <string name="version_name_esp">Versión 2.26 del Diccionario Moré-Kuyubim</string>
+
+    <string name="target_lang_code">por</string>
+    <string name="numberOfSls">2</string>
+    <string name="thumb_do_video">Thumb do vídeo</string>
+    <string name="introduction">Apresentação</string>
+    <string name="class_name">Class Name</string>
+    <string name="gloss">Gloss</string>
+
+</resources>

@@ -1,0 +1,78 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+//    compileSdkVersion 34
+    defaultConfig {
+        compileSdk 34
+    }
+    namespace "japiim.dic.morekuyubim.por"
+    testNamespace "japiim.dic.morekuyubim.porteste"
+    defaultConfig {
+        applicationId "japiim.dic.morekuyubim.por"
+        minSdkVersion 26
+        targetSdkVersion 34
+        versionCode 26
+        versionName "Versão 2.26 do Dicionário Moré-Kuyubim"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+repositories {
+    google()
+    mavenCentral()
+}
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.navigation:navigation-fragment:2.7.7'
+    implementation 'androidx.navigation:navigation-ui:2.7.7'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.7.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0'
+    implementation 'androidx.viewpager2:viewpager2:1.0.0'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'com.reddit:indicator-fast-scroll:1.3.0'
+    implementation 'androidx.compose.ui:ui-android:1.6.1'
+//    implementation 'com.google.firebase:firebase-crashlytics-buildtools:2.9.9'
+//    implementation 'com.google.firebase:firebase-crashlytics-gradle:2.9.9'
+//    implementation 'androidx.annotation:annotation-jvm:1.7.1'
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+
+    implementation "io.noties.markwon:core:4.6.2"
+    implementation "io.noties.markwon:ext-tables:4.6.2"
+
+    implementation "com.otaliastudios:zoomlayout:1.9.0"
+    implementation 'androidx.core:core-splashscreen:1.1.0-alpha02'
+
+//    para exibir textos tipo markdown
+//        implementation 'com.github.GrenderG:MarkdownView:0.1.2';
+//    implementation 'com.github.mukeshsolanki:MarkdownView-Android:2.0.0'
+//    implementation 'us.feras.mdv:markdownview:1.1.0'
+
+
+    //para splashscreen em Android 12 (api 31)
+//    implementation 'androidx.core:core-splashscreen:1.0.0-beta02'
+
+    //Material Design
+
+
+}

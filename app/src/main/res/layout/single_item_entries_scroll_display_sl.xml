@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:orientation="vertical"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp"
+    android:layout_marginTop="1dp"
+    android:layout_weight="@integer/material_motion_duration_short_1">
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="@integer/material_motion_duration_short_1">
+
+
+        <TextView
+            style="@style/TextColorSl1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvVernacularScrollDisplaySl"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:text="Vernacular" />
+                <TextView
+                    style="@style/TextColorSl1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvLangCode"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="Lang_code" />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="@integer/material_motion_duration_short_1">
+
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+                    style="@style/Background"
+                    android:id="@+id/rvSenseBundlesScrollDisplaySl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="0dp"
+                    />
+
+
+        </LinearLayout>
+
+</LinearLayout>

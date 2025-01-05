@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="26"
+    android:versionName="@string/version_name"
+    >
+    <uses-permission android:name="android.permission.INTERNET"
+        android:maxSdkVersion="34" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"
+        android:maxSdkVersion="34" />
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"
+        android:maxSdkVersion="34" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"
+        android:maxSdkVersion="34" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"
+        android:maxSdkVersion="34" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="34" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="34" />
+<!--    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"-->
+<!--        android:maxSdkVersion="34" />-->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/Theme.DicionarioMoreKuyubim">
+
+        <activity android:name="japiim.dic.morekuyubim.por.SplashScreen"
+            android:theme="@style/SplashTheme"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name="japiim.dic.morekuyubim.por.MainActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name="japiim.dic.morekuyubim.por.ViewAdapterIntroduction">
+
+        </activity>
+
+        <activity android:name="japiim.dic.morekuyubim.por.ViewAdapterImageIntro">
+        </activity>
+
+        <activity android:name="japiim.dic.morekuyubim.por.ViewAdapterEntryBundles"
+            android:configChanges="orientation|screenSize">
+        </activity>
+
+        <activity android:name="japiim.dic.morekuyubim.por.ViewAdapterImageExpanded">
+        </activity>
+        <activity android:name="japiim.dic.morekuyubim.por.ViewAdapterVideoPlay">
+        </activity>
+
+
+    </application>
+
+</manifest>
